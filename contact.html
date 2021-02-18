@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link href="/styles.css" type="text/css" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>contactformulier</h1>
+    <form name="contactformulier" method="POST" data-netlify="true">
+
+        <label>Naam</label>
+        <input type="text" name="name">
+        <br>
+        <br>
+        <label>E-mail</label>
+        <input type="email" name="e-mail">
+        <br>
+        <br>
+        <label>Telefoon</label>
+        <input type="tel" name="telnumber">
+        <br>
+        <br>
+        <label>Geboorte Datum</label>
+        <input type="date" name="geboortedatum">
+        <br>
+        <br>
+        <p>Geslacht</p>
+        <input type="radio" value="man" name="geslacht">
+        <label>Man</label>
+        <br>
+        <input type="radio" value="vrouw" name="geslacht">
+        <label>Vrouw</label>
+        <br>
+        <br>
+        <p>Favorite Cuisine</p>
+        <input type="checkbox" value="frans" name="cuisine">
+        <label>Frans</label>
+        <br>
+        <input type="checkbox" value="italiaans" name="cuisine">
+        <label>Italiaans</label>
+        <br>
+        <input type="checkbox" value="spaans" name="cuisine">
+        <label>Spaans</label>
+        <br>
+        <input type="checkbox" value="arabisch" name="cuisine">
+        <label>Arabisch</label>
+        <br>
+        <br>
+        <label>Favorite kleur van shorts</label>
+        <input type="color" name="kleurshorts">
+        <br>
+        <br>
+        <label>Biografie</label>
+        <br>
+        <textarea rows="6" cols="50" name="biografie" value="biografie" placeholder="Hier je biografie"></textarea>
+        <br>
+        <br>
+        <label>Upload je laatse recept </label>
+        <input type="file" name="recept">
+        <br>
+        <br>
+        <label>Link naar je eigen site</label>
+        <input type="url" name="link">
+        <br>
+        <br>
+        <input type="reset" value="reset">
+        <br>
+        <input type="submit" value="submit">
+
+
+
+    </form>
+</body>
+
+</html>

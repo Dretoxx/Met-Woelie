@@ -1,0 +1,56 @@
+body{
+    font-family: 'Ranchers', cursive;
+    color:white;
+    letter-spacing: 1px;
+    background: grey;
+
+}
+
+.black-border{
+    border:5px solid black;
+}
+
+#green-background{
+    background-color: green;
+}
+
+h1{
+    text-align: center;
+}
+.navbar{
+    margin-top:20px;
+}
+.navbar ul {
+    background: chocolate;
+    list-style-type:none;
+    padding:20px;
+}
+.navbar li{
+    display: inline;
+}
+.navbar li a{
+    color:black;
+    text-align: center;
+    width:60px;
+    padding:20px;
+}
+
+.navbar li a:hover{
+    background: darkred;
+    color:white
+}
+
+@media (min-width: 768px) { 
+
+body{
+    background: red;
+}
+} 
+
+@media (min-width: 1040px) { 
+
+body{
+    background: darkgreen;
+}
+
+}
